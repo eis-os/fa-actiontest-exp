@@ -1,0 +1,16 @@
+# replace default config
+full: true
+
+plugins:
+  - convertTransform
+  - convertPathData:
+      utilizeAbsolute: false
+      negativeExtraSpace: false
+      straightCurves: false
+  - transformsWithOnePath:
+      width: 1000
+      height: 1000
+  - convertPathData:
+      utilizeAbsolute: true
+#      negativeExtraSpace: false
+      straightCurves: false

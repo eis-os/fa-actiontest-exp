@@ -1,0 +1,35 @@
+# replace default config
+full: true
+
+plugins:
+
+  # - name
+  #
+  # or:
+  # - name: false
+  # - name: true
+  #
+  # or:
+  # - name:
+  #     param1: 1
+  #     param2: 2
+  - removeDoctype
+  - convertTransform
+  - convertPathData:
+      utilizeAbsolute: false
+      negativeExtraSpace: false
+      straightCurves: false
+  - transformsWithOnePath:
+      width: 500
+      height: 500
+      leadingZero: false
+      negativeExtraSpace: false
+  - transformsWithOnePath:
+      shiftX: -1
+      leadingZero: false
+      negativeExtraSpace: false      
+  - convertPathData:
+      utilizeAbsolute: true
+#      negativeExtraSpace: false
+      straightCurves: false
+

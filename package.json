@@ -1,0 +1,15 @@
+{
+  "name": "FA Action Test",
+  "version": "0.1.0",
+  "description": "Creates a icon font with actions based on font awesome",
+  "main": "Gruntfile.js",
+  "author": "Oskar Eisemuth",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-svgmin": "^3.1.0",
+    "grunt-webfont": "^1.0.2",
+    "grunt-webfont-svg-extractor": "0.0.4",
+    "grunt-replace": "^0.11.0"
+  }
+}
